@@ -1,53 +1,19 @@
-* {
-    font-family: 'Mulish', sans-serif;
-}
-header {
-    background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/11/pastel-backgroundblue-goo-1600x900.jpg");
-    background-position: center;    
-}
-
-.navbar {
-    padding-left: 10vw;
-    padding-right: 10vw;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-bottom: 1px solid;
-}
-
-.intro {
-    display: flex;
-    margin: 30px auto 30px auto;    
-    width: 80%;
-    align-items: center;
+button{
+    position: absolute;
+    top: 10px;
+    left: 1325px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #13b4e9;
+    background-color:cadetblue;
+    color: #fff;
+    cursor: pointer;
+    font: 1.2em 'consolas';
+    transition: transform 300ms ease;
+    z-index: 2;
 }
 
-.intro .text {
-    width: 50vw;
-    margin-right: 50px;
-}
-.image img{
-    width: 20vw;
-}
-
-.login-container {
-    width: 60%;
-    margin: 50px auto 0 auto;
-}
-
-.col {
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.p-4 {
-    border-radius: 8px;
-}
-
-.login-container .btn {
-    width: 100%;
-}
-
-.form-group {
-    margin-bottom: 20px;
+button:active {
+    transform: scale(0.95);
 }
