@@ -51,23 +51,32 @@
                 </div>
             </div>
         </nav>
-        <div class="intro">
-            <div class="text">
-                <h1>HonQue helps teams move work forward.</h1>
-                <p>Collaborate, manage projects, and reach new productivity peaks. From high rises to the home office,
-                    the way your team
-                    works is unique—accomplish it all with HonQue.</p>
-            </div>
-            <div class="image">
-                <img src="https://images.ctfassets.net/rz1oowkt5gyp/5QIzYxue6b7raOnVFtMyQs/113acb8633ee8f0c9cb305d3a228823c/hero.png?w=1200&fm=webp"
-                    alt="">
-            </div>
-
-        </div>
     </header>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+
+    <div class="wrapper">
+        <h1>Main tasks</h1>
+        <div class="input-list">
+            <div class="input-group">
+                <input type="text" placeholder="Add your task here">
+                <textarea id="desc" placeholder="Description" cols="30" rows="7"></textarea>
+                <button class="add-btn">Add</button>
+            </div>
+            <ul class="list">
+                <li>task 1 <span><i class="fas fa-trash"></i></span></li>
+                <li>task 2 <span><i class="fas fa-trash"></i></span></li>
+                <li>task 3 <span><i class="fas fa-trash"></i></span></li>
+            </ul>
+        </div>
+        <div footer>
+            <span>You have <span class="pendingTasks"></span> pending tasks</span>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/115315b0b1.js" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
